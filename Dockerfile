@@ -1,5 +1,5 @@
 # 1. Comece com a imagem oficial do n8n como base (que usa Alpine Linux)
-FROM n8nio/n8n:latest
+FROM n8nio/n8n:1.113.2
 
 # 2. Mude para o usuário 'root' para ter permissão de instalar pacotes
 USER root
